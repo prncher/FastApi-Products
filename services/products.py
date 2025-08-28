@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from httpx import AsyncClient 
+from httpx import AsyncClient
+
 
 app = FastAPI()
 
